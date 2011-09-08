@@ -1,6 +1,6 @@
 #include<iostream>
 #include<string>
-#include<sstream>
+#include<stream>
 using namespace std;
 
 void partOne(){ //subloop for part one of the project
@@ -66,7 +66,7 @@ void partFive(){ //subloop for part five of project
     }
 
 void BONUS(){
-    cout << "I haven't done the bonus yet. It will go here eventually."
+    cout << "I haven't done the bonus yet. It will go here eventually.";
     }
 
 void userSaysNoPartOne(){ //Subloop is user says no to first section
@@ -76,11 +76,13 @@ void userSaysNoPartOne(){ //Subloop is user says no to first section
     char userInput;
     getline(cin, userInput); //Ask user if he wants to proceed (y/n)
     if (userInput = 'y'){ //If yes, then goto first section
-        partOne;}
+        partOne;
+        }
     else{  //If no, too bad go there anyways
         cout << "Yeah right you thought you were getting out of that? No way! "
                 "Let's do it anyways!";
-        partOne;}
+        partOne;
+    }}
 
 void userSaysNoPartTwo(){ //subloop if user says no to second section
     cout << "You honestly have no clue what you're missing...This is a good "
@@ -92,6 +94,7 @@ void userSaysNoPartTwo(){ //subloop if user says no to second section
     else{ //If no, too bad go there anyways
         cout << "Too bad! It's too good to miss, we're going there anyways!";
         partTwo;}
+    }
 
 void userSaysNoPartThree(){ //Subloop if user says no to thrid section
     cout << "You seem defiant today...Hmm, you must be sad. Maybe a smile will" 
@@ -105,6 +108,7 @@ void userSaysNoPartThree(){ //Subloop if user says no to thrid section
         cout << "Ah well, everyone has ther bad days...Just have to work through "
                 "it I guess...Good luck with that!"
         partThree;}
+    }
 
 void userSaysNoPartFour(){ //Subloop if user says no to fourth section
     cout << "What is this a joke? You've come so far! You can't stop now! Move "
@@ -183,13 +187,10 @@ int main(void){  //Main loop to control flow of program
             "wouldn't be a bonus if it was easy! Are you ready to check out the "
             "bonus? (y/n)";
     getline(cin, userInput);
-    if userInput = 'y' then
-        bonus;
-    else
-        userSaysNoBonus;
+    if (userInput = 'y'){
+        bonus;}
+    else{
+        userSaysNoBonus;}
     cout << "I hope you enjoyed, it was a heck of a good time to type!\n"
             "Byron D Moran\nStudent ID: 2201057\n bdm37";
-
-
-
-        
+}
