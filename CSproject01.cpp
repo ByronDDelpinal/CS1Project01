@@ -6,20 +6,20 @@ using namespace std;
 
 void partOne(){ //subloop for part one of the project
     cout << "Hello World!" << endl << "Here I Come!"; //Outputs to the screen
-    system("PAUSE")
-    system("PAUSE")
-    system("PAUSE")
-    system("CLS")
+    system("PAUSE");
+    system("PAUSE");
+    system("PAUSE");
+    system("CLS");
     } 
 
 void partTwo(){ //subloop for part two of the project
     cout << "One,  Two,   Three,  Four,    Five\n"; //1-5 in English
     cout << "Un,   Deux,  Trois,  Quatre,  Cinq\n"; //1-5 in French
     cout << "Uno,  Dos,   Tres,   Quattro, Cinco\n"; //1-5 in Spanish
-    system("PAUSE")
-    system("PAUSE")
-    system("PAUSE")
-    system("CLS")
+    system("PAUSE");
+    system("PAUSE");
+    system("PAUSE");
+    system("CLS");
     }
 
 void partThree(){ //subloop for part three of the project
@@ -33,10 +33,10 @@ void partThree(){ //subloop for part three of the project
     cout << "Jenna\t\tNorthHill\t\tComp. Science\n";  //Jenna's Traits
     cout << "Jeff\t\t\tAkron\t\t\tElectrical Engineering\n";  //Jeff's Traits
     cout << "Pete\t\t\tAkron\t\t\tPhysics\n";  //Pete's Traits
-    system("PAUSE")
-    system("PAUSE")
-    system("PAUSE")
-    system("cls")
+    system("PAUSE");
+    system("PAUSE");
+    system("PAUSE");
+    system("cls");
     }
 
 void partFour(){ //Subloop for part four of the project (4 lines stored as str)
@@ -46,10 +46,10 @@ void partFour(){ //Subloop for part four of the project (4 lines stored as str)
     string lineFour = "But Not This One";
     cout << lineOne << endl; cout << lineTwo << endl; cout << lineThree << endl;
     cout << lineFour;
-    system("PAUSE")
-    system("PAUSE")
-    system("PAUSE")
-    system("cls")
+    system("PAUSE");
+    system("PAUSE");
+    system("PAUSE");
+    system("cls");
     }
 
 void partFive(){ //subloop for part five of project
@@ -82,10 +82,10 @@ void partFive(){ //subloop for part five of project
                                                  << "\t\t\t\t" << p4Ave << endl;
     cout << personFive  << "\t\t" << p5ClassScore << "\t\t\t\t\t" << p5LabScore
                                                  << "\t\t\t\t" << p5Ave << endl;
-    system("PAUSE")
-    system("PAUSE")
-    system("PAUSE")
-    system("cls")
+    system("PAUSE");
+    system("PAUSE");
+    system("PAUSE");
+    system("cls");
     }
 
 void BONUS(){
@@ -99,10 +99,10 @@ void BONUS(){
              "BBB     BBBBBB      DDDDDDDDDD      MMM          MMM\n"
              "BBBBBBBBBBBBB       DDDDDDDD        MMM          MMM\n"
              "BBBBBBBBBBBB YRON   DDDDDD YLAN     MMM          MMM ORAN\n";
-    system("PAUSE")
-    system("PAUSE")
-    system("PAUSE")
-    system("cls")
+    system("PAUSE");
+    system("PAUSE");
+    system("PAUSE");
+    system("cls");
     }
 
 void userSaysNoPartOne(){ //Subloop is user says no to first section
@@ -173,12 +173,12 @@ int main(void){  //Main loop to control flow of program
             "(y/n)\n";
     cin >> userInput; //Prompting user for input, either y or n (Yes or No)
     if (userInput = 'y'){
-        system("PAUSE")
-        system("cls")
+        system("PAUSE");
+        system("cls");
         partOne();}
     else{
-        system("PAUSE")
-        system("cls")
+        system("PAUSE");
+        system("cls");
         userSaysNoPartOne();}
     cout << "Here's the second portion of the project. You remember, the one "
             "where we counted and commented...\nAre you ready to learn some "
@@ -186,12 +186,12 @@ int main(void){  //Main loop to control flow of program
             "";
     cin >> userInput; //Getting input from user
     if (userInput = 'y'){
-        system("PAUSE")
-        system("cls")
+        system("PAUSE");
+        system("cls");
         partTwo();}
     else{
-        system("PAUSE")
-        system("cls")
+        system("PAUSE");
+        system("cls");
         userSaysNoPartTwo();}
     cout << "Ah, I see you've made it back from the second part of this project, "
             "hope you liked it! At this point I think it's safe to take some sort "
@@ -202,12 +202,12 @@ int main(void){  //Main loop to control flow of program
             "excited yet though. Are you ready to take a look at it? (y/n)";
     cin >> userInput; //Getting input from user
     if (userInput = 'y'){
-        system("PAUSE")
-        system("cls")
+        system("PAUSE");
+        system("cls");
         partThree();}
     else {
-        system("PAUSE")
-        system("cls")
+        system("PAUSE");
+        system("cls");
         userSaysNoPartThree();}
     cout << "I'm sure you had a blast looking over that portion of the project, "
             "I'll skip the chatter and take you right into the fourth portion "
@@ -217,12 +217,12 @@ int main(void){  //Main loop to control flow of program
             "me when you're ready. (y/n)";
     cin >> userInput;
     if (userInput = 'y'){
-        system("PAUSE")
-        system("cls")
+        system("PAUSE");
+        system("cls");
         partFour();}
     else{
-        system("PAUSE")
-        system("cls")
+        system("PAUSE");
+        system("cls");
         userSaysNoPartFour();}
     cout << "WHOA were those strings crazy! Although you'd never know if they "
             "were string variables or not unless you took a look at the source "
@@ -231,12 +231,12 @@ int main(void){  //Main loop to control flow of program
             "on? (y/n)";
     cin >> userInput;
     if (userInput = 'y'){
-        system("PAUSE")
-        system("cls")
+        system("PAUSE");
+        system("cls");
         partFive();}
     else{
-        system("PAUSE")
-        system("cls")
+        system("PAUSE");
+        system("cls");
         userSaysNoPartFive();}
     cout << "Ah I KNOW you didn't think I skipped out on the bonus did you? "
             "I know I know, you're ready to be done...So am I, trust me. BUT, it "
@@ -244,12 +244,12 @@ int main(void){  //Main loop to control flow of program
             "bonus? (y/n)";
     cin >> userInput;
     if (userInput = 'y'){
-        system("PAUSE")
-        system("cls")
+        system("PAUSE");
+        system("cls");
         BONUS();}
     else{
-        system("PAUSE")
-        system("cls")
+        system("PAUSE");
+        system("cls");
         userSaysNoBonus();}
     cout << "I hope you enjoyed this, it was a heck of a good time to type!\n"
             "Byron D Moran\nStudent ID: 2201057\n bdm37";
