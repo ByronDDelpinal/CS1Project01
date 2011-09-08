@@ -130,13 +130,13 @@ void userSaysNoBonus(){
     BONUS();}
                    
 int main(void){  //Main loop to control flow of program
-    cout << "This is Byron's first project for Computer Science 1\n"
+    cout << "This is Byron's first project for Computer Science 1\n";
             //Explaining to the user what the project is
     cout << "It's all compiled into one file requiring user input between "
             "sections\n";
     char userInput;
     //Variable to store y/n for user input on moving further in the code.
-    cout >> "Would you like to proceed to the first portion on of project now? "
+    cout << "Would you like to proceed to the first portion on of project now? "
             "(y/n)\n";
     cin >> userInput; //Prompting user for input, either y or n (Yes or No)
     if (userInput = 'y'){
