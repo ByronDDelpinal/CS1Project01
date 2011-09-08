@@ -7,6 +7,8 @@ using namespace std;
 void partOne(){ //subloop for part one of the project
     cout << "Hello World!" << endl << "Here I Come!"; //Outputs to the screen
     system("PAUSE")
+    system("PAUSE")
+    system("PAUSE")
     system("CLS")
     } 
 
@@ -14,6 +16,8 @@ void partTwo(){ //subloop for part two of the project
     cout << "One,  Two,   Three,  Four,    Five\n"; //1-5 in English
     cout << "Un,   Deux,  Trois,  Quatre,  Cinq\n"; //1-5 in French
     cout << "Uno,  Dos,   Tres,   Quattro, Cinco\n"; //1-5 in Spanish
+    system("PAUSE")
+    system("PAUSE")
     system("PAUSE")
     system("CLS")
     }
@@ -30,6 +34,8 @@ void partThree(){ //subloop for part three of the project
     cout << "Jeff\t\t\tAkron\t\t\tElectrical Engineering\n";  //Jeff's Traits
     cout << "Pete\t\t\tAkron\t\t\tPhysics\n";  //Pete's Traits
     system("PAUSE")
+    system("PAUSE")
+    system("PAUSE")
     system("cls")
     }
 
@@ -40,6 +46,8 @@ void partFour(){ //Subloop for part four of the project (4 lines stored as str)
     string lineFour = "But Not This One";
     cout << lineOne << endl; cout << lineTwo << endl; cout << lineThree << endl;
     cout << lineFour;
+    system("PAUSE")
+    system("PAUSE")
     system("PAUSE")
     system("cls")
     }
@@ -75,11 +83,24 @@ void partFive(){ //subloop for part five of project
     cout << personFive  << "\t\t" << p5ClassScore << "\t\t\t\t\t" << p5LabScore
                                                  << "\t\t\t\t" << p5Ave << endl;
     system("PAUSE")
+    system("PAUSE")
+    system("PAUSE")
     system("cls")
     }
 
 void BONUS(){
-    cout << "I haven't done the bonus yet. It will go here eventually.";
+     cout << "BBBBBBBBBBB         DDDDDDD         MMMM        MMMM\n"
+             "BBBBBBBBBBBB        DDDDDDDDD       MMMMM      MMMMM\n"
+             "BBB     BBBBB       DDDDDDDDDD      MMM MMM  MMM MMM\n"
+             "BBB     BBBBB       DDD   DDDDDD    MMM  MMMMMM  MMM\n"
+             "BBBBBBBBBBBB        DDD    DDDDD    MMM   MMMM   MMM\n"
+             "BBBBBBBBBBBBB       DDD    DDDDD    MMM    MM    MMM\n"
+             "BBB     BBBBB       DDD   DDDDDD    MMM    MM    MMM\n"
+             "BBB     BBBBBB      DDDDDDDDDD      MMM          MMM\n"
+             "BBBBBBBBBBBBB       DDDDDDDD        MMM          MMM\n"
+             "BBBBBBBBBBBB YRON   DDDDDD YLAN     MMM          MMM ORAN\n";
+    system("PAUSE")
+    system("PAUSE")
     system("PAUSE")
     system("cls")
     }
