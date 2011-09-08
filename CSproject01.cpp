@@ -1,6 +1,7 @@
 #include<iostream>
 #include<string>
-#include<stream>
+#include<sstream>
+#include<cstdlib>
 using namespace std;
 
 void partOne(){ //subloop for part one of the project
@@ -108,7 +109,7 @@ void userSaysNoPartThree(){ //Subloop if user says no to thrid section
         partThree();}
     else{ //If no, too bad go there anyways
         cout << "Ah well, everyone has ther bad days...Just have to work through "
-                "it I guess...Good luck with that!"
+                "it I guess...Good luck with that!";
         partThree();}
     }
 
@@ -132,11 +133,11 @@ int main(void){  //Main loop to control flow of program
     cout << "This is Byron's first project for Computer Science 1\n"
             //Explaining to the user what the project is
     cout << "It's all compiled into one file requiring user input between "
-            "sections\n"
+            "sections\n";
     char userInput;
     //Variable to store y/n for user input on moving further in the code.
     cout >> "Would you like to proceed to the first portion on of project now? "
-            "(y/n)\n"
+            "(y/n)\n";
     cin >> userInput; //Prompting user for input, either y or n (Yes or No)
     if (userInput = 'y'){
         partOne();}
@@ -157,7 +158,7 @@ int main(void){  //Main loop to control flow of program
             "keyboard, and they're way too hard to clean.../n It's about time to "
             "venture into the third part of this project. This one was a bit more "
             "fun, we had to line things up and make a list. I know, don't get too "
-            "excited yet though. Are you ready to take a look at it? (y/n)"
+            "excited yet though. Are you ready to take a look at it? (y/n)";
     cin >> userInput; //Getting input from user
     if (userInput = 'y'){
         partThree();}
