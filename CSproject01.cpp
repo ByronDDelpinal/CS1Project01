@@ -97,14 +97,14 @@ void userSaysNoPartOne(){ //Subloop is user says no to first section
             "the project now? (y/n)\n";
     char userInput;
     cin >> userInput; //Ask user if he wants to proceed (y/n)
-    if (userInput = 'y'){ //If yes, then goto first section
+    if (userInput == 'y'){ //If yes, then goto first section
         cout << string (100, '\n');
         partOne();
         }
     else{  //If no, too bad go there anyways
-        cout << "\tYeah right you thought you were getting out of that? No way! "
-                "Let's do it anyways!";
         cout << string (100, '\n');
+        cout << "\tYeah right you thought you were getting out of that? No way! "
+                "Let's do it anyways!\n\n\n\n";
         partOne();
     }}
 
@@ -113,12 +113,12 @@ void userSaysNoPartTwo(){ //subloop if user says no to second section
             "part. I'll give you one more chance. (y/n)\n";
     char userInput;
     cin >> userInput; //Get input (y/n)
-    if (userInput = 'y'){  //If yes, then go to second section
+    if (userInput == 'y'){  //If yes, then go to second section
         cout << string (100, '\n');
         partTwo();}
     else{ //If no, too bad go there anyways
-        cout << "\tToo bad! It's too good to miss, we're going there anyways!";
         cout << string (100, '\n');
+        cout << "\tToo bad! It's too good to miss, we're going there anyways!\n\n\n\n";
         partTwo();}
     }
 
@@ -127,34 +127,34 @@ void userSaysNoPartThree(){ //Subloop if user says no to thrid section
             " cheer you up!\n :-D\n Did that work? (y/n)"; //Get input (y/n)
     char userInput;
     cin >> userInput;
-    if (userInput = 'y'){ //If yes, go to section three
+    if (userInput == 'y'){ //If yes, go to section three
         cout << string (100, '\n');
         cout << "I knew it! Those things cheer everything up! Good call, me...";
         partThree();}
     else{ //If no, too bad go there anyways
         cout << string (100, '\n');
         cout << "\tAh well, everyone has ther bad days...Just have to work through "
-                "it I guess...Good luck with that!";
+                "it I guess...Good luck with that!\n\n\n\n";
         partThree();}
     }
 
 void userSaysNoPartFour(){ //Subloop if user says no to fourth section
     cout << string (100, '\n');
     cout << "What is this a joke? You've come so far! You can't stop now! Move "
-            "along...";
+            "along...\n\n\n\n";
     partFour(); //No input or option, output a statement and go to section four
     }
 
 void userSaysNoPartFive(){ //Subloop if user says no to fifth section
     cout << string (100, '\n');
     cout << "\tOk really?! There's only one problem left...There's just no excuse "
-            "for that.\n";
+            "for that.\n\n\n\n";
     partFive();}
 
 void userSaysNoBonus(){ //Subloop if user says no to bonus section
     cout << string (100, '\n');
     cout << "\tOH COME ON!! It's the bonus question! You know I wasn't passing"
-            "that up! Get real...See you at the end!\n";
+            "that up! Get real...See you at the end!\n\n\n\n";
     BONUS();}
                    
 int main(void){  //Main loop to control flow of program
@@ -162,13 +162,13 @@ int main(void){  //Main loop to control flow of program
     cout << "This is Byron's first project for Computer Science 1\n";
             //Explaining to the user what the project is
     cout << "It's all compiled into one file requiring user input between "
-            "sections\n";
+            "sections.\n";
     char userInput;
     //Variable to store y/n for user input on moving further in the code.
     cout << "Would you like to proceed to the first portion on of project now? "
             "(y/n)\n\n>>>";
     cin >> userInput; //Prompting user for input, either y or n (Yes or No)
-    if (userInput = 'y'){
+    if (userInput == 'y'){
         cout << string (100, '\n');
         partOne();}
     else{
@@ -180,7 +180,7 @@ int main(void){  //Main loop to control flow of program
             "French and Spanish (I'm hoping you know English already...)\n (y/n)"
             "\n\n>>>";
     cin >> userInput; //Getting input from user
-    if (userInput = 'y'){
+    if (userInput == 'y'){
         cout << string (100, '\n');
         partTwo();}
     else{
@@ -195,7 +195,7 @@ int main(void){  //Main loop to control flow of program
             "fun, we had to line things up and make a list. I know, don't get too "
             "excited yet though. Are you ready to take a look at it? (y/n)\n\n>>>";
     cin >> userInput; //Getting input from user
-    if (userInput = 'y'){
+    if (userInput == 'y'){
         cout << string (100, '\n');
         partThree();}
     else {
@@ -209,7 +209,7 @@ int main(void){  //Main loop to control flow of program
             "break! Better take some time cleaning up the keyboard...Just tell"
             " me when you're ready. (y/n)\n\n>>>";
     cin >> userInput;
-    if (userInput = 'y'){
+    if (userInput == 'y'){
         cout << string (100, '\n');
         partFour();}
     else{
@@ -222,7 +222,7 @@ int main(void){  //Main loop to control flow of program
             "I'll give you a minute to do that...\nAll done and ready to move "
             "on? (y/n)\n\n>>>";
     cin >> userInput;
-    if (userInput = 'y'){
+    if (userInput == 'y'){
         cout << string (100, '\n');
         partFive();}
     else{
@@ -234,10 +234,10 @@ int main(void){  //Main loop to control flow of program
             "wouldn't be a bonus if it was easy! Are you ready to check out the "
             "bonus? (y/n)\n\n>>>";
     cin >> userInput;
-    if (userInput = 'y'){
+    if (userInput == 'y'){
         cout << string (100, '\n');
         BONUS();}
-    else if (userInput = 'n'){
+    else if (userInput == 'n'){
         cout << string (100, '\n');
         userSaysNoBonus();}
     else{cout << string (100, '\n');
