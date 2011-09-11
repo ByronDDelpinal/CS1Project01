@@ -1,6 +1,5 @@
 #include<iostream> //Needed for ins and outs
 #include<string> //Needed to use string vars
-#include<sstream> // Needed to use
 #include<cstdlib> //Needed to use systems calls (system("PAUSE")
 using namespace std;
 
@@ -103,13 +102,13 @@ void userSaysNoPartOne(){ //Subloop is user says no to first section
         }
     else{  //If no, too bad go there anyways
         cout << string (100, '\n');
-        cout << "\tYeah right you thought you were getting out of that? No way! "
+        cout << "Yeah right you thought you were getting out of that? No way! "
                 "Let's do it anyways!\n\n\n\n";
         partOne();
     }}
 
 void userSaysNoPartTwo(){ //subloop if user says no to second section
-    cout << "\tYou honestly have no clue what you're missing...This is a good "
+    cout << "You honestly have no clue what you're missing...This is a good "
             "part. I'll give you one more chance. (y/n)\n";
     char userInput;
     cin >> userInput; //Get input (y/n)
@@ -123,7 +122,7 @@ void userSaysNoPartTwo(){ //subloop if user says no to second section
     }
 
 void userSaysNoPartThree(){ //Subloop if user says no to thrid section
-    cout << "\tYou seem defiant today...Hmm, you must be sad. Maybe a smile will"
+    cout << "You seem defiant today...Hmm, you must be sad. Maybe a smile will"
             " cheer you up!\n :-D\n Did that work? (y/n)"; //Get input (y/n)
     char userInput;
     cin >> userInput;
@@ -133,7 +132,7 @@ void userSaysNoPartThree(){ //Subloop if user says no to thrid section
         partThree();}
     else{ //If no, too bad go there anyways
         cout << string (100, '\n');
-        cout << "\tAh well, everyone has ther bad days...Just have to work through "
+        cout << "Ah well, everyone has ther bad days...Just have to work through "
                 "it I guess...Good luck with that!\n\n\n\n";
         partThree();}
     }
@@ -147,13 +146,13 @@ void userSaysNoPartFour(){ //Subloop if user says no to fourth section
 
 void userSaysNoPartFive(){ //Subloop if user says no to fifth section
     cout << string (100, '\n');
-    cout << "\tOk really?! There's only one problem left...There's just no excuse "
+    cout << "Ok really?! There's only one problem left...There's just no excuse "
             "for that.\n\n\n\n";
     partFive();}
 
 void userSaysNoBonus(){ //Subloop if user says no to bonus section
     cout << string (100, '\n');
-    cout << "\tOH COME ON!! It's the bonus question! You know I wasn't passing"
+    cout << "OH COME ON!! It's the bonus question! You know I wasn't passing"
             "that up! Get real...See you at the end!\n\n\n\n";
     BONUS();}
                    
@@ -165,7 +164,7 @@ int main(void){  //Main loop to control flow of program
             "sections.\n";
     char userInput;
     //Variable to store y/n for user input on moving further in the code.
-    cout << "Would you like to proceed to the first portion on of project now? "
+    cout << "Would you like to proceed to the first portion of project now? "
             "(y/n)\n\n>>>";
     cin >> userInput; //Prompting user for input, either y or n (Yes or No)
     if (userInput == 'y'){
@@ -175,7 +174,7 @@ int main(void){  //Main loop to control flow of program
         cout << string (100, '\n');
         userSaysNoPartOne();}
     //Introduction to user before second section
-    cout << "\tHere's the second portion of the project. You remember, the one "
+    cout << "Here's the second portion of the project. You remember, the one "
             "where we counted and commented...Are you ready to learn some "
             "French and Spanish (I'm hoping you know English already...)\n (y/n)"
             "\n\n>>>";
@@ -187,7 +186,7 @@ int main(void){  //Main loop to control flow of program
         cout << string (100, '\n');
         userSaysNoPartTwo();}
     //Introduction to user before third section
-    cout << "\tAh, I see you've made it back from the second part of this project, "
+    cout << "Ah, I see you've made it back from the second part of this project, "
             "hope you liked it! At this point I think it's safe to take some sort "
             "of coffee or beverage break. Not food though, no one likes a sticky "
             "keyboard, and they're way too hard to clean...\n It's about time to "
@@ -202,7 +201,7 @@ int main(void){  //Main loop to control flow of program
         cout << string (100, '\n');
         userSaysNoPartThree();}
     //Introduction to user before fourth section
-    cout << "\tI'm sure you had a blast looking over that portion of the project, "
+    cout << "I'm sure you had a blast looking over that portion of the project, "
             "I'll skip the chatter and take you right into the fourth portion "
             "where we played around with some strings for the first time. That "
             "is, unless you did what I told you not to and got food in that last "
@@ -216,7 +215,7 @@ int main(void){  //Main loop to control flow of program
         cout << string (100, '\n');
         userSaysNoPartFour();}
     //Introduction to user before section five
-    cout << "\tWHOA were those strings crazy! Although you'd never know if they "
+    cout << "WHOA were those strings crazy! Although you'd never know if they "
             "were string variables or not unless you took a look at the source "
             "code...Uh oh, better make sure, we don't want someone cheating! "
             "I'll give you a minute to do that...\nAll done and ready to move "
@@ -229,7 +228,7 @@ int main(void){  //Main loop to control flow of program
         cout << string (100, '\n');
         userSaysNoPartFive();}
     //Introduction to user before bonus
-    cout << "\tAh I KNOW you didn't think I skipped out on the bonus did you? "
+    cout << "Ah I KNOW you didn't think I skipped out on the bonus did you? "
             "I know I know, you're ready to be done...So am I, trust me. BUT, it "
             "wouldn't be a bonus if it was easy! Are you ready to check out the "
             "bonus? (y/n)\n\n>>>";
