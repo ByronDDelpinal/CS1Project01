@@ -1,3 +1,8 @@
+/*
+ * Byron D Moran
+ * BDM37 - 2201057
+ * CS1Project01
+*/
 #include<iostream> //Needed for ins and outs
 #include<string> //Needed to use string vars
 #include<cstdlib> //Needed to use systems calls (system("PAUSE")
